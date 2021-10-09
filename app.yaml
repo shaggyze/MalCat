@@ -6,7 +6,7 @@ handlers:
 - url: /series
   static_dir: MalCat
 
--url: .*
+- url: .*
   script: main.app
   
 libraries:
